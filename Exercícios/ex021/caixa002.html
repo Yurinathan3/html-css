@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body { 
+            background-color: rgb(46, 46, 46);
+            font-family: sans-serif;
+                }
+        header {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px ;
+                    }
+        header > nav {
+            background-color: rgb(141, 140, 140);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            text-align: center;
+            box-shadow: 1px 1px 1px black;
+                        }
+        main {
+            background-color: white;
+            padding: 5px 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 0px 20px 0px 20px;
+        }
+        h2 {
+            background-color: rgb(141, 140, 140);
+            padding: 1px;
+            margin: 2px;
+            
+        }  
+        main > section {
+            padding: 1px;
+        } 
+        p.assunto {
+            background-color: rgb(141, 140, 140);
+            padding: 10px;
+        }
+        p#desenvolvedor {
+            text-align: right;
+            
+
+        } 
+        footer { 
+            background-color: white;
+            padding-top: 0.5px;
+            border-radius: 10px;
+        }
+        a{
+            color: aqua;
+            padding-right: 20px;
+            }
+        main > aside { background-color: rgba(0, 0, 0, 0.295);
+            margin-top: 3px;
+            }
+        p#fala {
+            border: 0px;
+            margin-bottom: 0px;
+            }
+            div#bola {
+                background-color: white;
+                border-radius: 50%;
+                height: 20cm;
+                width: 20cm;
+                text-align: center;
+                margin: auto;
+                padding-top: 50px;
+                
+
+            }
+
+                  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem vindo ao meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>Main de número 1</section>
+        <h2>Texto principal</h2>
+        <p class="assunto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, dolore iste quis dignissimos numquam culpa laborum dolorem doloribus modi, minus saepe! Dicta recusandae necessitatibus, harum amet sapiente beatae illo accusantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ea maiores voluptatem quaerat vel! Eveniet voluptatibus non ut fugit assumenda laudantium repellendus, dignissimos ad suscipit consectetur alias dicta officiis autem?</p>
+    </main>
+    <main>
+        <section>Main de número 2</section>
+        <h2>Segundo texto principal</h2>
+        <article>
+            <p id="fala" class="assunto">Com os dedos das mão, com os dedos dos pés <br> jogando e programando eles são nota 10</p> </article>
+            <aside>"Yuri Nathan"</aside>
+        
+    </main>
+    <footer>
+        <p id="desenvolvedor">Desenvolvido por Yuri Nathan</p>
+    </footer>
+    <div id="bola"><p>Meu Deus do céu, isso é uma bola?? 
+        <br> Eu estou dentro de uma bola</p></div>
+
+</body>
+</html>

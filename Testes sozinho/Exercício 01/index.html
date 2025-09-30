@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubo em 1k</title>
+</head>
+<body>
+    <h1>Cubo em 3 tamanhos</h1>
+    <p>Temos 3 imagens do mesmo cubo em tamanhos diferentes, para testar a qualidade e sua eficiência em trocar de foto para se adaptar ap tamanho de determinado item <br> 1200x1200 img g <br>700x700 img m <br>300x300 img p</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/img-p.jpg" type="image/png">
+        <source media="(max-width:1250px)" srcset="imagens/img-m.jpg" type="image/png">
+        <img src="imagens/img.g.jpg" alt="Error">
+    </picture>
+</body>
+</html>
